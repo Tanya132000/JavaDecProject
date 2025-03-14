@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite name="Suite">
+	<test thread-count="5" name="Test1">
+
+
+		<groups>
+			<run>
+				<include name="regression" />
+				<include name="sanity" />
+				<!--<exclude name="functional"/>-->
+			</run>
+		</groups>
+
+
+		<classes>
+			<class name="testng.GroupingEx" />
+			<class name="testng.Grouping1Ex" />
+			 <class name="testng.Grouping2Ex" />
+
+		</classes>
+	</test> <!--
+	Test -->
+
+
+</suite> <!--
+Suite -->
