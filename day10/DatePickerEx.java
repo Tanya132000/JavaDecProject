@@ -20,7 +20,7 @@ public class DatePickerEx {
 //frame 
 		driver.switchTo().frame(0);
 // method1: using SendKey
-//		driver.findElement(By.id("datepicker")).sendKeys("11/19/2024");
+		driver.findElement(By.id("datepicker")).sendKeys("11/19/2024");
 		
 // method2: using SendKey		
 		
